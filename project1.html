@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background:url('gym3.jpg');
+        height: 1200px;
+    }
+
+    .left{
+display: inline block;
+position: absolute;
+left: 2px;
+top: 20px;
+    }
+    .left img{
+        width:130px;
+        filter:invert(100%)
+    }
+    .left div{text-align: center;
+        background-color: white;
+font-family:ITALIC;
+font-size: 11px;
+    }
+    .mid{
+display: block;
+width: 33%;
+margin: 20px auto;
+
+
+    }
+    .right{
+        
+display: inline block;
+position: absolute;
+right: 2px;
+top: 20px;
+    }
+    .navbar{
+        
+        display: inline-block;
+    }
+
+    .navbar li{
+            display: inline-block;
+             font-size: 15px; 
+    }
+         .navbar li a{ margin: 4px; 
+             text-decoration: none; 
+            color:red; 
+              padding: 2px 6px ; 
+} .navbar li a:hover{ 
+background-color: turquoise;
+color:white ;
+}
+
+
+.navbar li  .active{
+background-color: rgb(223, 49, 214);
+color: darkblue;
+}
+
+
+.navbar li .active1{
+background-color:red ;
+color :yellowgreen;
+}
+
+
+.navbar li .active2{
+background-color:green ;
+color: pink;
+}
+
+
+.navbar li .active3{
+background-color: blueviolet;
+color: yellow;
+}
+.btn1{
+    margin: 0px 5px;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: italic;
+
+}
+
+
+.btn2{
+    margin: 0px 5px;
+    color: white;
+    background-color: palevioletred;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn1:hover{background: purple;
+
+}
+.btn2:hover{background:green;
+}
+.container{
+    
+    margin: 10px  60px ;
+    padding: 70px;
+    border-radius:40px ;
+    width: auto;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 150px;
+    padding: 4px;
+    border: 2px solid red;
+    font-size: 11px;
+    font-family: 'italic';
+    margin: 3px auto;
+    font-weight: 80px;
+     border-radius: 6px  ;
+}
+.container h1{
+    text-align: center;
+    font-family: italic;
+}
+.container button{
+    display: block;
+    margin: auto;
+}
+</style>
+<body>
+<header class="header">
+<div class="left">
+    <img src="gym4.jpg">
+    <div> ANIL DINU FITNESS CLUB</div>
+</div>
+
+<div class="mid">
+    <ul class=" navbar">
+<li>  <a href="#" class="active"> home  </a> </li>
+<li><a href="#"class=" active1" > about us </a>   </li>
+<li> <a href="#" class=" active2">fitness calculator</a></li>
+<li><a href="# " class="active3" > contact us  </a></li>
+
+
+    </ul>
+</div>
+
+<div class="right">
+    <button class="btn1">call us now</button>
+    <button class="btn2">email us</button>
+
+</div>
+
+
+</header>
+<div class="container">
+   <h1> JOIN BEST GYM AT KHALWA</h1>
+   <form action="noaction .php">
+       <div  class=" form-group">   
+     <input type="text" name="" placeholder=" enter your name"  >      
+    
+    
+    
+    </div>
+   </form>
+   <form action="noaction .php">
+    <div  class=" form-group">   
+  <input type="text" name="" placeholder=" enter your father  name"  >      
+ 
+ 
+ 
+ </div>
+</form> <form action="noaction .php">
+    <div  class="form-group">   
+  <input type="text" name="" placeholder=" enter your  address"  >      
+ 
+ 
+ 
+ </div>
+</form> <form action="noaction .php">
+    <div  class=" form-group ">   
+  <input type="text" name="" placeholder=" enter your  age"  >      
+  </div>
+</form> <form action="noaction .php">
+    <div  class=" form-group ">   
+  <input type="text" name="" placeholder=" enter your  phone no."  >   
+    </div>
+<button class="btn1">submit</button>
+</form>
+</div>
+    
+</body>
+</html>
